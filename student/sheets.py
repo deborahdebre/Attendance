@@ -10,11 +10,11 @@ def sheet_data():
              "https://www.googleapis.com/auth/drive.file",
              "https://www.googleapis.com/auth/drive"]
     
-    creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json",scope)
+    creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json",scope) # Replace credentials.json with name of credentials file
     client = gspread.authorize(creds)
 
     global sheet
-    sheet = client.open("Deborah Debre's Google Sheet for Python Project").sheet1
+    sheet = client.open("Name of Google Sheet").sheet1 #Put name of google sheet as the parameter
     
 #Returning values in column 1
     result = sheet.col_values(1)
