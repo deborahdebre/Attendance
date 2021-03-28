@@ -7,7 +7,7 @@ This program enables students to use a unique four-digit code provided by a facu
 * Obtain and install Google Sheets API credentials in a .JSON file through https://console.cloud.google.com 
 * Obtain client email from credentials file
 * Share created Google Sheet with and give editing privileges to the client email
-* Fill out google sheet deatils in 'sheets.py' code in 'faculty' folder
+* Fill out google sheet details in 'sheets.py' code in 'faculty' folder
 ```
 pip3 install -r requirements.txt
 
